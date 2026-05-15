@@ -273,9 +273,9 @@ def jalankan_alns(
         suhu_current *= alpha
 
         # Kriteria berhenti: suhu minimum
-        if suhu_current <= 0.001:
-            alasan_berhenti = "suhu_minimum"
-            break
+        # if suhu_current <= 0.001:
+        #     alasan_berhenti = "suhu_minimum"
+        #     break
 
     suhu_akhir = suhu_current
     waktu_selesai = time.time()
